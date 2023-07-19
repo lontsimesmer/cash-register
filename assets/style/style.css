@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  align-items: center;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 730px;
+  margin: 50px auto;
+  width: 500px;
+}
+
+.input-field {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+}
