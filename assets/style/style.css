@@ -1,10 +1,14 @@
-html {
+* {
   box-sizing: border-box;
+}
+
+html {
+  align-items: center;
   display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: center;
-  max-width: 100%;
   min-height: 100vh;
+  /* overflow-x: hidden; */
 }
 
 .container {
@@ -12,16 +16,39 @@ html {
   border: 1px solid #ddd;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  height: 730px;
-  margin: 50px auto;
-  width: 500px;
+  gap: 40px;
+  padding-bottom: 50px;
+  /* height: 730px; */
+  width: 600px;
 }
 
 .input-field {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin: 0 auto;
-    width: 50%;
+  display: flex;
+  gap: 25px;
+  width: 90%;
+}
+
+input {
+  font-size: 14px;
+  height: 35px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.field {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+}
+
+.output {
+  border: 2px solid #2424;
+  border-radius: 5px;
+  /* height: 450px; */
+  width: 90%;
 }

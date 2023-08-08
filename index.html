@@ -11,17 +11,30 @@
     <div class="container">
       <h1>Cash Register</h1>
       <div class="input-field">
-        <div class="input1">
-          <label for="total bill">Total bill</label>
-          <input type="text" placeholder="collect total bill" />
+        <div class="field">
+          <label for="total bill">$Bill(B):</label>
+          <input
+            type="number"
+            placeholder="collect total bill"
+            class="input1"
+          />
         </div>
-        <div class="input2">
-          <label for="">User's payment</label>
-          <input type="text" placeholder="collect user's payment" />
+        <div class="field">
+          <label for="user payement">$Note(N):</label>
+          <input
+            type="number"
+            placeholder="collect user's payment"
+            class="input2"
+          />
         </div>
       </div>
-      <button>done</button>
-      <div class="output"></div>
+      <div class="output">
+        <input type="text" />
+      </div>
+      <div class="button-field">
+        <button>Calculate</button>
+      </div>
     </div>
+    <script src="assets/script/script.js"></script>
   </body>
 </html>
