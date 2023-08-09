@@ -8,7 +8,6 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: center;
   min-height: 100vh;
-  /* overflow-x: hidden; */
 }
 
 .container {
@@ -16,9 +15,8 @@ html {
   border: 1px solid #ddd;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  padding-bottom: 50px;
-  /* height: 730px; */
+  gap: 30px;
+  padding-bottom: 30px;
   width: 600px;
 }
 
@@ -32,23 +30,67 @@ input {
   font-size: 14px;
   height: 35px;
   padding: 5px 10px;
-  width: 100%;
 }
 
-.field {
+.input1 {
+  border: 1px solid #2424;
+  outline: #2424;
+}
+
+.input2 {
+  border: 1px solid #2424;
+  outline: #2424;
+}
+
+.field1 {
   align-items: center;
   display: flex;
   gap: 10px;
 }
 
-button {
-  height: 40px;
-  width: 200px;
-}
-
 .output {
+  align-items: center;
   border: 2px solid #2424;
   border-radius: 5px;
-  /* height: 450px; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 0;
+  width: 80%;
+}
+
+.output2 {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 80px;
   width: 90%;
+}
+
+.field2 {
+  align-items: flex-end;
+  display: flex;
+  gap: 50px;
+}
+
+.input3 {
+  border: none;
+  border-bottom: 2px solid #ddd;
+  outline: none;
+}
+
+.button-field {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+button {
+  background-color: #2424;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 6px #2424;
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+  width: 180px;
 }
