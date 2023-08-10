@@ -20,6 +20,13 @@ html {
   width: 600px;
 }
 
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .input-field {
   display: flex;
   gap: 25px;
@@ -33,11 +40,6 @@ input {
 }
 
 .input1 {
-  border: 1px solid #2424;
-  outline: #2424;
-}
-
-.input2 {
   border: 1px solid #2424;
   outline: #2424;
 }
@@ -59,9 +61,12 @@ input {
   width: 80%;
 }
 
-.output2 {
+.output1 {
+  align-items: center;
   border: 1px solid #ddd;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
   height: 80px;
   width: 90%;
 }
@@ -72,7 +77,7 @@ input {
   gap: 50px;
 }
 
-.input3 {
+.input2 {
   border: none;
   border-bottom: 2px solid #ddd;
   outline: none;
