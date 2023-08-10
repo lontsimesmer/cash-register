@@ -30,6 +30,7 @@ form {
 .input-field {
   display: flex;
   gap: 25px;
+  justify-content: center;
   width: 90%;
 }
 
@@ -61,16 +62,6 @@ input {
   width: 80%;
 }
 
-.output1 {
-  align-items: center;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  height: 80px;
-  width: 90%;
-}
-
 .field2 {
   align-items: flex-end;
   display: flex;
@@ -81,6 +72,16 @@ input {
   border: none;
   border-bottom: 2px solid #ddd;
   outline: none;
+}
+
+.output1 {
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 90%;
 }
 
 .button-field {
