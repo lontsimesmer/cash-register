@@ -1,7 +1,7 @@
 # JS Cash Register
 This project is all about simulating a cash register app at a store checkout.
 ## App
-![image](assets/image/cash.png)
+![cash](https://github.com/Nathanael-Lontsi/cash-register/assets/116273730/a6eaf4bd-82fb-486d-ba7a-32d09c18182e)
 ### Built with  
 - HTML
 - CSS
