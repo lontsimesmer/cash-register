@@ -35,7 +35,7 @@ form {
 }
 
 input {
-  font-size: 14px;
+  font-size: 15px;
   height: 35px;
   padding: 5px 10px;
 }
@@ -77,7 +77,7 @@ input {
 .output1 {
   align-items: center;
   border: 1px solid #ddd;
-  border-radius: 6px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   height: 80px;
