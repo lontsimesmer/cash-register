@@ -1,12 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="assets/style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" id="cash-register">
+        <h1 class="title">Cash Register</h1>
+        <div class="input-field">
+          <div class="field1">
+            <label for="price">$Bill(B):</label>
+            <input
+              type="text"
+              placeholder="total bill"
+              id="price"
+              class="input1"
+            />
+          </div>
+          <div class="field1">
+            <label for="cash">$Note(N):</label>
+            <input
+              type="text"
+              placeholder="user's balance"
+              id="cash"
+              class="input1"
+            />
+          </div>
+        </div>
+        <div class="output">
+          <div>
+            <div class="field2">
+              <label for="penny">Penny:</label>
+              <input
+                type="text"
+                class="input2"
+                id="penny"
+                value="0"
+                onfocus="if(this.value == '0') {this.value = '';}"
+              />
+            </div>
+            <div class="field2">
+              <label for="nickel">Nickel:</label>
+              <input
+                type="text"
+                class="input2"
+                id="nickel"
+                value="0"
+                onfocus="if(this.value == '0') {this.value = '';}"
+              />
+            </div>
+            <div class="field2">
+              <label for="dime">Dime:</label>
+              <input
+                type="text"
+                class="input2"
+                id="dime"
+                value="0"
+                onfocus="if(this.value == '0') {this.value = '';}"
+              />
+            </div>
+            <div class="field2">
+              <label for="quarter">Quarter:</label>
+              <input
+                type="text"
+                class="input2"
+                id="quarter"
+                value="0"
+                onfocus="if(this.value == '0') {this.value = '';}"
+              />
+            </div>
+            <div class="field2">
+              <label for="one">One:</label>
+              <input
+                type="text"
+                class="input2"
+                id="one"
+                value="0"
+                onfocus="if(this.value == '0') {this.value = '';}"
+              />
+            </div>
+            <div class="field2">
+              <label for="five">Five:</label>
+              <input
+                type="text"
+                class="input2"
+                id="five"
+                value="0"
+                onfocus="if(this.value == '0') {this.value = '';}"
+              />
+            </div>
+            <div class="field2">
+              <label for="ten">Ten:</label>
+              <input
+                type="text"
+                class="input2"
+                id="ten"
+                value="0"
+                onfocus="if(this.value == '0') {this.value = '';}"
+              />
+            </div>
+            <div class="field2">
+              <label for="twenty">Twenty:</label>
+              <input
+                type="text"
+                class="input2"
+                id="twenty"
+                value="0"
+                onfocus="if(this.value == '0') {this.value = '';}"
+              />
+            </div>
+            <div class="field2">
+              <label for="one-hundred">One Hundred:</label>
+              <input
+                type="text"
+                class="input2"
+                id="one-hundred"
+                value="0"
+                autocomplete="off"
+                onfocus="if(this.value == '0') {this.value = '';}"
+              />
+            </div>
+          </div>
+          <div class="output1" id="result"></div>
+        </div>
+        <div class="button-field">
+          <button class="calulate">Register</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="assets/script/script.js"></script>
+  </body>
 </html>
