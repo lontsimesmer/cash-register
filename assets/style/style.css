@@ -2,12 +2,14 @@
   box-sizing: border-box;
 }
 
-html {
+body {
   align-items: center;
   display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: center;
+  margin: 0;
   min-height: 100vh;
+  padding: 0;
 }
 
 .container {
@@ -79,9 +81,11 @@ input {
   border: 1px solid #ddd;
   border-radius: 5px;
   display: flex;
-  justify-content: center;
   height: 80px;
+  justify-content: center;
+  line-height: 1.5;
   width: 90%;
+  word-break: break-all;
 }
 
 .button-field {
@@ -99,4 +103,13 @@ button {
   cursor: pointer;
   height: 40px;
   width: 180px;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 400px;
+  }
+  input {
+    width: 100%;
+  }
 }

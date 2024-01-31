@@ -90,7 +90,6 @@ function checkCashRegister (price, cash, cid) {
     }
   }
 
-  console.log(result)
   displayResults.innerHTML = `${result.status} ; [${result.change}]`
   return result
 }
